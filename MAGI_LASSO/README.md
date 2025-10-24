@@ -18,7 +18,7 @@ This README explains how to run **apples-to-apples** comparisons between **MAGI*
   Required columns (or equivalents):  
   `n_code_target, n_code_no_target, n_target_no_code, n_no_target_no_code`
 - **Outcome T**: A target code (SNOMED, RxNorm, CPT, etc.).  
-  Optional: **descendants and parents** expansion for predictors.
+  Optional: **descendants and parents** removed for predictors.
 - **Splits**: fixed CV folds or train/valid/test with a shared random seed.
 - **EPV settings**: events-per-variable thresholds (e.g., target EPV≈9, min EPV≥5).
 - **Ranking mode** (pick one):
